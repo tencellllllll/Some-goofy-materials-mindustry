@@ -1,0 +1,11 @@
+{
+  "name": "Proto-Shard",
+  "description": "An unrefined heavily radioactive material extracted prior to full synthesis into larger, high-tier composites.",
+  "cost": 1.2,
+  "color": "575a7b",
+  "hardness": 3,
+  "flammability": 0.0,
+  "explosiveness": 0.05,
+  "radioactivity": 1000.0,
+  "charge": 0.1
+}
