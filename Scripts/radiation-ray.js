@@ -1,6 +1,6 @@
 const protoShard = Vars.content.getByName(ContentType.item, "proto-materials-proto-shard");
 const scrap = Items.scrap;
-const pyrite = Items.pyrite;
+const pyrite = Items.pyratite;
 const phaseFabric = Items.phaseFabric;
 const thorium = Items.thorium;
 
