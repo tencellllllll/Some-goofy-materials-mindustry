@@ -13,5 +13,21 @@
     { "item": "lead", "amount": 56 },
     { "item": "silicon", "amount": 120 }
   ],
-  "buildCostMultiplier": 0.2
+  "buildCostMultiplier": 0.2,
+  "research": {
+    "parent": "silicon-smelter",
+    "requirements": [
+      { "item": "copper", "amount": 1000 },
+      { "item": "lead", "amount": 800 },
+      { "item": "metaglass", "amount": 500 },
+      { "item": "silicon", "amount": 500 }
+    ],
+    "objectives": [
+      "silicon",
+      "pyrite",
+      "metaglass",
+      "thorium",
+      "phase-fabric"
+    ]
+  }
 }
