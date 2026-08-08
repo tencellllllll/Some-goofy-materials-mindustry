@@ -1,0 +1,17 @@
+{
+  "type": "GenericCrafter",
+  "name": "Radiation Ray",
+  "description": "Bombards scrap with volatile materials to synthesize Proto-Shards. Scrap must enter from the bottom-middle; catalysts (Pyrite, Phase Fabric, Thorium) must enter from the top-middle.",
+  "size": 3,
+  "category": "crafting",
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 20,
+  "craftTime": 60,
+  "requirements": [
+    { "item": "copper", "amount": 34 },
+    { "item": "lead", "amount": 56 },
+    { "item": "silicon", "amount": 120 }
+  ],
+  "buildCostMultiplier": 0.2
+}
