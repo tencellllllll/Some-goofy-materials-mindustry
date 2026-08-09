@@ -21,7 +21,7 @@
       "height": 28,
       "lifetime": 32.5,
       "shootEffect": "shootBig",
-      "smokeEffect": "shootBigSmoke",¹
+      "smokeEffect": "shootBigSmoke",
       "hitEffect": "blastExplosion",
       "despawnEffect": "blastExplosion",
       "frontColor": "88e8c8",
