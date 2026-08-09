@@ -1,0 +1,82 @@
+{
+  "type": "ItemTurret",
+  "name": "Magastorm",
+  "description": "Splits its massive outer armatures and energy conduits outward to discharge destructive bolts fed by Polished Stabilized Proto-Shards.",
+  "size": 3,
+  "health": 1600,
+  "category": "turret",
+  "reload": 75,
+  "range": 260,
+  "shootSound": "laser",
+  "targetAir": true,
+  "targetGround": true,
+  "recoil": 4,
+  "shake": 3,
+  "ammoTypes": {
+    "proto-materials-proto-shard-polished-stabilized": {
+      "type": "BasicBulletType",
+      "speed": 8,
+      "damage": 420,
+      "width": 14,
+      "height": 28,
+      "lifetime": 32.5,
+      "shootEffect": "shootBig",
+      "smokeEffect": "shootBigSmoke",¹
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "frontColor": "88e8c8",
+      "backColor": "575a7b",
+      "pierce": true,
+      "pierceCap": 4
+    }
+  },
+  "requirements": [
+    { "item": "copper", "amount": 200 },
+    { "item": "lead", "amount": 160 },
+    { "item": "silicon", "amount": 120 },
+    { "item": "titanium", "amount": 90 },
+    { "item": "thorium", "amount": 50 }
+  ],
+  "research": "proto-stabilizer",
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-l",
+        "progress": "warmup",
+        "moveX": -5,
+        "moveY": -1,
+        "mirror": false,
+        "heatProgress": "heat"
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-r",
+        "progress": "warmup",
+        "moveX": 5,
+        "moveY": -1,
+        "mirror": false,
+        "heatProgress": "heat"
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing-l",
+        "progress": "warmup",
+        "moveX": -8,
+        "moveY": 2,
+        "mirror": false,
+        "heatProgress": "heat"
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-wing-r",
+        "progress": "warmup",
+        "moveX": 8,
+        "moveY": 2,
+        "mirror": false,
+        "heatProgress": "heat"
+      }
+    ]
+  }
+}
