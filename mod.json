@@ -1,8 +1,8 @@
 {
   "name": "extra-materials",
-  "displayName": "Prototype Materials",
+  "displayName": "extra-Materials",
   "author": "Your Name",
-  "description": "Adds prototype materials and raw resources, starting with the Proto-Shard.",
-  "version": "1.0.3",
+  "description": "Adds extra materials and raw resources, starting with the Proto-Shard.",
+  "version": "1.0.4",
   "minGameVersion": "146"
 }
