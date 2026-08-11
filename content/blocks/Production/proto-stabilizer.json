@@ -1,0 +1,21 @@
+{
+  "type": "GenericCrafter",
+  "name": "Proto Stabilizer",
+  "description": "Subjects Proto-Shards to localized electromagnetic dampening to neutralize nuclear decay.",
+  "size": 2,
+  "category": "crafting",
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 10,
+  "craftTime": 60,
+  "consumes": {
+    "power": 2.0
+  },
+  "requirements": [
+    { "item": "copper", "amount": 80 },
+    { "item": "lead", "amount": 60 },
+    { "item": "silicon", "amount": 50 },
+    { "item": "titanium", "amount": 30 }
+  ],
+  "research": "proto-polisher"
+}

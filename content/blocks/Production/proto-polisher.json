@@ -1,0 +1,20 @@
+{
+  "type": "GenericCrafter",
+  "name": "Proto Polisher",
+  "description": "Smooths and refines the exterior of Proto-Shards using high-velocity abrasive particles.",
+  "size": 2,
+  "category": "crafting",
+  "hasItems": true,
+  "hasPower": true,
+  "itemCapacity": 10,
+  "craftTime": 60,
+  "consumes": {
+    "power": 1.5
+  },
+  "requirements": [
+    { "item": "copper", "amount": 60 },
+    { "item": "lead", "amount": 50 },
+    { "item": "silicon", "amount": 40 }
+  ],
+  "research": "radiation-ray"
+}
