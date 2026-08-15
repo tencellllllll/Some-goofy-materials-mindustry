@@ -1,0 +1,10 @@
+{
+  "name": "Polished Unstable Proto-Shard",
+  "description": "A Proto-Shard with a refined surface, but its core remains dangerously volatile.",
+  "cost": 1.5,
+  "color": "7c7ea9",
+  "flammability": 0.1,
+  "explosiveness": 0.2,
+  "radioactivity": 0.3,
+  "research": "radiation-ray"
+}
