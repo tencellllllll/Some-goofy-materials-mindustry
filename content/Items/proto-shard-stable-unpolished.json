@@ -1,0 +1,10 @@
+{
+  "name": "Stable Unpolished Proto-Shard",
+  "description": "A Proto-Shard whose energy state has been neutralized, though its jagged surface prevents high-precision applications.",
+  "cost": 1.5,
+  "color": "5a7b70",
+  "flammability": 0.0,
+  "explosiveness": 0.0,
+  "radioactivity": 0.05,
+  "research": "radiation-ray"
+}
