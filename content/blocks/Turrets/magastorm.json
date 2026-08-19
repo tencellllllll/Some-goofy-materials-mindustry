@@ -13,7 +13,7 @@
   "recoil": 4,
   "shake": 3,
   "ammoTypes": {
-    "proto-shard-polished-stabilized": {
+    "proto shard-polished stabilized": {
       "type": "BasicBulletType",
       "speed": 8,
       "damage": 420,
