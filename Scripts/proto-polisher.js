@@ -1,7 +1,7 @@
 const rawShard = Vars.content.getByName(ContentType.item, "proto-materials-proto-shard");
-const polishedUnstable = Vars.content.getByName(ContentType.item, "proto-materials-proto-shard-polished-unstable");
-const stableUnpolished = Vars.content.getByName(ContentType.item, "proto-materials-proto-shard-stable-unpolished");
-const polishedStabilized = Vars.content.getByName(ContentType.item, "proto-materials-proto-shard-polished-stabilized");
+const polishedUnstable = Vars.content.getByName(ContentType.item, "proto-shard-polished-unstable");
+const stableUnpolished = Vars.content.getByName(ContentType.item, "shard-stable-unpolished");
+const polishedStabilized = Vars.content.getByName(ContentType.item, "proto-shard-polished-stabilized");
 
 const protoPolisher = extend(GenericCrafter, "proto-polisher", {
     init(){
